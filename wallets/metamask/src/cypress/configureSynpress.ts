@@ -86,9 +86,10 @@ export default function configureSynpress(
         cypressPage: _cypressPage
       } = await importMetaMaskWallet(rdpPort, importDefaultWallet)
       if (_extensionPage && _metamaskExtensionId) {
-        context = _context
-        metamaskExtensionId = _metamaskExtensionId
-        metamaskExtensionPage = _extensionPage
+        context = _context;
+        metamaskExtensionId = _metamaskExtensionId;
+        metamaskExtensionPage = _extensionPage;
+        // Open a new tab with the MetaMask extension
       }
       // TODO: Implement if needed to change the focus between pages
       // if (_cypressPage) {
@@ -102,6 +103,7 @@ export default function configureSynpress(
   on('task', {
     // Wallet
     connectToDapp: () => metamask?.connectToDapp(),
+    disconnectDapp: () => metamask?.disconnectDapp(),
     importWallet: (seedPhrase: string) => metamask?.importWallet(seedPhrase),
     importWalletFromPrivateKey: (privateKey: string) => metamask?.importWalletFromPrivateKey(privateKey),
 

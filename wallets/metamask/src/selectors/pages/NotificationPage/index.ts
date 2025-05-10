@@ -5,6 +5,7 @@ import NetworkPage from './networkPage'
 import PermissionPage from './permissionPage'
 import SignaturePage from './signaturePage'
 import TransactionPage from './transactionPage'
+import menuTab from "./menuTab";
 
 export default {
   ActionFooter,
@@ -13,5 +14,6 @@ export default {
   NetworkPage,
   PermissionPage,
   SignaturePage,
-  TransactionPage
-}
+  TransactionPage,
+  menuTab,
+};

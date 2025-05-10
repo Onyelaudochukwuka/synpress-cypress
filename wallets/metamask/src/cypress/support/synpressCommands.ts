@@ -17,63 +17,70 @@ import type { Network } from '../../type/Network'
 declare global {
   namespace Cypress {
     interface Chainable {
-      importWallet(seedPhrase: string): Chainable<void>
-      importWalletFromPrivateKey(privateKey: string): Chainable<void>
+      importWallet(seedPhrase: string): Chainable<void>;
+      importWalletFromPrivateKey(privateKey: string): Chainable<void>;
 
-      getAccount(): Chainable<string>
-      getNetwork(): Chainable<string>
+      getAccount(): Chainable<string>;
+      getNetwork(): Chainable<string>;
 
-      connectToDapp(accounts?: string[]): Chainable<void>
+      connectToDapp(accounts?: string[]): Chainable<void>;
+      disconnectDapp(): Chainable<void>;
+      isDappConnected(): Chainable<boolean>;
 
-      addNewAccount(accountName: string): Chainable<void>
-      switchAccount(accountName: string): Chainable<void>
-      renameAccount(currentAccountName: string, newAccountName: string): Chainable<void>
-      getAccountAddress(): Chainable<string>
-      resetAccount(): Chainable<void>
+      addNewAccount(accountName: string): Chainable<void>;
+      switchAccount(accountName: string): Chainable<void>;
+      renameAccount(
+        currentAccountName: string,
+        newAccountName: string
+      ): Chainable<void>;
+      getAccountAddress(): Chainable<string>;
+      resetAccount(): Chainable<void>;
 
-      switchNetwork(networkName: string, isTestnet?: boolean): Chainable<void>
+      switchNetwork(networkName: string, isTestnet?: boolean): Chainable<void>;
       createAnvilNode(options?: CreateAnvilOptions): Chainable<{
-        anvil: Anvil
-        rpcUrl: string
-        chainId: number
-      }>
-      connectToAnvil(): Chainable<void>
-      emptyAnvilNode(): Chainable<void>
-      addNetwork(network: Network): Chainable<void>
-      approveNewNetwork(): Chainable<void>
-      approveSwitchNetwork(): Chainable<void>
-      approveNewEthereumRPC(): Chainable<void>
-      rejectNewNetwork(): Chainable<void>
-      rejectSwitchNetwork(): Chainable<void>
-      rejectNewEthereumRPC(): Chainable<void>
+        anvil: Anvil;
+        rpcUrl: string;
+        chainId: number;
+      }>;
+      connectToAnvil(): Chainable<void>;
+      emptyAnvilNode(): Chainable<void>;
+      addNetwork(network: Network): Chainable<void>;
+      approveNewNetwork(): Chainable<void>;
+      approveSwitchNetwork(): Chainable<void>;
+      approveNewEthereumRPC(): Chainable<void>;
+      rejectNewNetwork(): Chainable<void>;
+      rejectSwitchNetwork(): Chainable<void>;
+      rejectNewEthereumRPC(): Chainable<void>;
 
-      deployToken(): Chainable<void>
-      addNewToken(): Chainable<void>
+      deployToken(): Chainable<void>;
+      addNewToken(): Chainable<void>;
       approveTokenPermission(options?: {
-        spendLimit?: number | 'max'
-        gasSetting?: GasSettings
-      }): Chainable<void>
-      rejectTokenPermission(): Chainable<void>
+        spendLimit?: number | "max";
+        gasSetting?: GasSettings;
+      }): Chainable<void>;
+      rejectTokenPermission(): Chainable<void>;
 
-      providePublicEncryptionKey(): Chainable<void>
-      decrypt(): Chainable<void>
-      confirmSignature(): Chainable<void>
-      rejectSignature(): Chainable<void>
-      confirmTransaction(options?: { gasSetting?: GasSettings }): Chainable<void>
-      rejectTransaction(): Chainable<void>
-      confirmTransactionAndWaitForMining(): Chainable<void>
-      openTransactionDetails(txIndex: number): Chainable<void>
-      closeTransactionDetails(): Chainable<void>
+      providePublicEncryptionKey(): Chainable<void>;
+      decrypt(): Chainable<void>;
+      confirmSignature(): Chainable<void>;
+      rejectSignature(): Chainable<void>;
+      confirmTransaction(options?: {
+        gasSetting?: GasSettings;
+      }): Chainable<void>;
+      rejectTransaction(): Chainable<void>;
+      confirmTransactionAndWaitForMining(): Chainable<void>;
+      openTransactionDetails(txIndex: number): Chainable<void>;
+      closeTransactionDetails(): Chainable<void>;
 
-      lock(): Chainable<void>
-      unlock(): Chainable<void>
+      lock(): Chainable<void>;
+      unlock(): Chainable<void>;
 
-      toggleShowTestNetworks(): Chainable<void>
-      toggleDismissSecretRecoveryPhraseReminder(): Chainable<void>
+      toggleShowTestNetworks(): Chainable<void>;
+      toggleDismissSecretRecoveryPhraseReminder(): Chainable<void>;
 
-      goBackToHomePage(): Chainable<void>
-      openSettings(): Chainable<void>
-      openSidebarMenu(menu: SettingsSidebarMenus): Chainable<void>
+      goBackToHomePage(): Chainable<void>;
+      openSettings(): Chainable<void>;
+      openSidebarMenu(menu: SettingsSidebarMenus): Chainable<void>;
     }
   }
 }
@@ -127,6 +134,13 @@ export default function synpressCommandsForMetaMask(): void {
   Cypress.Commands.add('connectToDapp', () => {
     return cy.task('connectToDapp')
   })
+ 
+  Cypress.Commands.add("disconnectDapp", () => {
+    return cy.task("disconnectDapp");
+  });
+  Cypress.Commands.add("isDappConnected", () => {
+    return cy.task("isDappConnected");
+  });
 
   // Account
 

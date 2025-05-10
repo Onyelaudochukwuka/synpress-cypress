@@ -69,6 +69,10 @@ export default class MetaMask {
     await this.metamaskPlaywright.connectToDapp(accounts)
     return true
   }
+  async disconnectDapp(): Promise<boolean> {
+    await this.metamaskPlaywright.disconnectDapp()
+    return true
+  }
 
   /**
    * Imports a wallet using a seed phrase.
