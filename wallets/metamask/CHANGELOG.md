@@ -1,4 +1,4 @@
-# @synthetixio/synpress-metamask
+# @synpress-cypress/synpress-metamask
 
 ## 0.0.12
 
@@ -6,8 +6,8 @@
 
 - Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.12
-  - @synthetixio/synpress-core@0.0.12
+  - @synpress-cypress/synpress-cache@0.0.12
+  - @synpress-cypress/synpress-core@0.0.12
 
 ## 0.0.11
 
@@ -15,8 +15,8 @@
 
 - Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.11
-  - @synthetixio/synpress-core@0.0.11
+  - @synpress-cypress/synpress-cache@0.0.11
+  - @synpress-cypress/synpress-core@0.0.11
 
 ## 0.0.10
 
@@ -24,8 +24,8 @@
 
 - Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.10
-  - @synthetixio/synpress-core@0.0.10
+  - @synpress-cypress/synpress-cache@0.0.10
+  - @synpress-cypress/synpress-core@0.0.10
 
 ## 0.0.9
 
@@ -33,8 +33,8 @@
 
 - Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.9
-  - @synthetixio/synpress-core@0.0.9
+  - @synpress-cypress/synpress-cache@0.0.9
+  - @synpress-cypress/synpress-core@0.0.9
 
 ## 0.0.8
 
@@ -42,8 +42,8 @@
 
 - Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.8
-  - @synthetixio/synpress-core@0.0.8
+  - @synpress-cypress/synpress-cache@0.0.8
+  - @synpress-cypress/synpress-core@0.0.8
 
 ## 0.0.7
 
@@ -51,8 +51,8 @@
 
 - Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.7
-  - @synthetixio/synpress-core@0.0.7
+  - @synpress-cypress/synpress-cache@0.0.7
+  - @synpress-cypress/synpress-core@0.0.7
 
 ## 0.0.6
 
@@ -60,8 +60,8 @@
 
 - Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.6
-  - @synthetixio/synpress-core@0.0.6
+  - @synpress-cypress/synpress-cache@0.0.6
+  - @synpress-cypress/synpress-core@0.0.6
 
 ## 0.0.5
 
@@ -69,8 +69,8 @@
 
 - Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.5
-  - @synthetixio/synpress-core@0.0.5
+  - @synpress-cypress/synpress-cache@0.0.5
+  - @synpress-cypress/synpress-core@0.0.5
 
 ## 0.0.4
 
@@ -78,8 +78,8 @@
 
 - Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.4
-  - @synthetixio/synpress-core@0.0.4
+  - @synpress-cypress/synpress-cache@0.0.4
+  - @synpress-cypress/synpress-core@0.0.4
 
 ## 0.0.3
 
@@ -87,8 +87,8 @@
 
 - Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.3
-  - @synthetixio/synpress-core@0.0.3
+  - @synpress-cypress/synpress-cache@0.0.3
+  - @synpress-cypress/synpress-core@0.0.3
 
 ## 0.0.2
 
@@ -96,8 +96,8 @@
 
 - Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.2
-  - @synthetixio/synpress-core@0.0.2
+  - @synpress-cypress/synpress-cache@0.0.2
+  - @synpress-cypress/synpress-core@0.0.2
 
 ## 0.0.1
 
@@ -105,8 +105,8 @@
 
 - 4848abc: Alpha Release
 - Updated dependencies [4848abc]
-  - @synthetixio/synpress-cache@0.0.1
-  - @synthetixio/synpress-core@0.0.1
+  - @synpress-cypress/synpress-cache@0.0.1
+  - @synpress-cypress/synpress-core@0.0.1
 
 ## 0.0.1-alpha.10
 
@@ -114,8 +114,8 @@
 
 - Alpha Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.1-alpha.10
-  - @synthetixio/synpress-core@0.0.1-alpha.10
+  - @synpress-cypress/synpress-cache@0.0.1-alpha.10
+  - @synpress-cypress/synpress-core@0.0.1-alpha.10
 
 ## 0.0.1-alpha.9
 
@@ -123,8 +123,8 @@
 
 - Alpha Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.1-alpha.9
-  - @synthetixio/synpress-core@0.0.1-alpha.9
+  - @synpress-cypress/synpress-cache@0.0.1-alpha.9
+  - @synpress-cypress/synpress-core@0.0.1-alpha.9
 
 ## 0.0.1-alpha.8
 
@@ -132,8 +132,8 @@
 
 - Alpha Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.1-alpha.8
-  - @synthetixio/synpress-core@0.0.1-alpha.8
+  - @synpress-cypress/synpress-cache@0.0.1-alpha.8
+  - @synpress-cypress/synpress-core@0.0.1-alpha.8
 
 ## 0.0.1-alpha.7
 
@@ -141,8 +141,8 @@
 
 - Alpha Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.1-alpha.7
-  - @synthetixio/synpress-core@0.0.1-alpha.7
+  - @synpress-cypress/synpress-cache@0.0.1-alpha.7
+  - @synpress-cypress/synpress-core@0.0.1-alpha.7
 
 ## 0.0.1-alpha.6
 
@@ -150,8 +150,8 @@
 
 - Alpha Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.1-alpha.6
-  - @synthetixio/synpress-core@0.0.1-alpha.6
+  - @synpress-cypress/synpress-cache@0.0.1-alpha.6
+  - @synpress-cypress/synpress-core@0.0.1-alpha.6
 
 ## 0.0.1-alpha.5
 
@@ -159,8 +159,8 @@
 
 - Alpha Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.1-alpha.5
-  - @synthetixio/synpress-core@0.0.1-alpha.5
+  - @synpress-cypress/synpress-cache@0.0.1-alpha.5
+  - @synpress-cypress/synpress-core@0.0.1-alpha.5
 
 ## 0.0.1-alpha.4
 
@@ -168,8 +168,8 @@
 
 - Alpha Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.1-alpha.4
-  - @synthetixio/synpress-core@0.0.1-alpha.4
+  - @synpress-cypress/synpress-cache@0.0.1-alpha.4
+  - @synpress-cypress/synpress-core@0.0.1-alpha.4
 
 ## 0.0.1-alpha.3
 
@@ -177,8 +177,8 @@
 
 - Alpha Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.1-alpha.3
-  - @synthetixio/synpress-core@0.0.1-alpha.3
+  - @synpress-cypress/synpress-cache@0.0.1-alpha.3
+  - @synpress-cypress/synpress-core@0.0.1-alpha.3
 
 ## 0.0.1-alpha.2
 
@@ -186,8 +186,8 @@
 
 - Alpha Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.1-alpha.2
-  - @synthetixio/synpress-core@0.0.1-alpha.2
+  - @synpress-cypress/synpress-cache@0.0.1-alpha.2
+  - @synpress-cypress/synpress-core@0.0.1-alpha.2
 
 ## 0.0.1-alpha.1
 
@@ -195,8 +195,8 @@
 
 - Alpha Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.1-alpha.1
-  - @synthetixio/synpress-core@0.0.1-alpha.1
+  - @synpress-cypress/synpress-cache@0.0.1-alpha.1
+  - @synpress-cypress/synpress-core@0.0.1-alpha.1
 
 ## 0.0.1-alpha.0
 

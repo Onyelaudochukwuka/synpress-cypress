@@ -1,4 +1,4 @@
-import { defineWalletSetup } from '@synthetixio/synpress-cache'
+import { defineWalletSetup } from '@synpress-cypress/synpress-cache'
 import { Phantom } from '../../../src/playwright'
 
 export const SEED_PHRASE = 'test test test test test test test test test test test junk'

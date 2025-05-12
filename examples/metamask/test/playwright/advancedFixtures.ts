@@ -1,4 +1,4 @@
-import { metaMaskFixtures } from '@synthetixio/synpress/playwright'
+import { metaMaskFixtures } from '@synpress-cypress/synpress/playwright'
 import connectedSetup from '../wallet-setup/connected.setup'
 
 export const test = metaMaskFixtures(connectedSetup).extend<{

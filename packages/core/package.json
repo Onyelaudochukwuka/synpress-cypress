@@ -1,10 +1,10 @@
 {
-  "name": "@synthetixio/synpress-core",
+  "name": "@synpress-cypress/synpress-core",
   "version": "0.0.12",
   "homepage": "https://synpress.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Synthetixio/synpress.git"
+    "url": "https://github.com/synpress-cypress/synpress.git"
   },
   "license": "MIT",
   "type": "module",

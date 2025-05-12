@@ -1,4 +1,4 @@
-import { testWithSynpress } from '@synthetixio/synpress-core'
+import { testWithSynpress } from '@synpress-cypress/synpress-core'
 import { Phantom, phantomFixtures } from '../../../src/playwright'
 
 import Selectors from '../../../src/selectors/pages/HomePage'

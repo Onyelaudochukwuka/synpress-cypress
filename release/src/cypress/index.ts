@@ -1,6 +1,6 @@
-export { configureSynpress as configureSynpressForEthereumWalletMock } from '@synthetixio/ethereum-wallet-mock/cypress'
+export { configureSynpress as configureSynpressForEthereumWalletMock } from '@synpress-cypress/ethereum-wallet-mock/cypress'
 export {
   configureSynpress as configureSynpressForMetaMask,
   initMetaMask,
   MetaMask
-} from '@synthetixio/synpress-metamask/cypress'
+} from '@synpress-cypress/synpress-metamask/cypress'

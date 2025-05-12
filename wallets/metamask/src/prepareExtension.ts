@@ -1,5 +1,5 @@
 import path from 'node:path'
-import { downloadFile, ensureCacheDirExists, unzipArchive } from '@synthetixio/synpress-cache'
+import { downloadFile, ensureCacheDirExists, unzipArchive } from '@synpress-cypress/synpress-cache'
 import fs from 'fs-extra'
 
 export const DEFAULT_METAMASK_VERSION = '11.9.1'

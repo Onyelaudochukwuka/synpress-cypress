@@ -1,5 +1,5 @@
-import { defineWalletSetup } from '@synthetixio/synpress-cache'
-import { testWithSynpress } from '@synthetixio/synpress-core'
+import { defineWalletSetup } from '@synpress-cypress/synpress-cache'
+import { testWithSynpress } from '@synpress-cypress/synpress-core'
 
 export {
   testWithSynpress,

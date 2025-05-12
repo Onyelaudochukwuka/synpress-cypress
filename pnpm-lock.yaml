@@ -38,7 +38,7 @@ importers:
 
   examples/ethereum-wallet-mock:
     dependencies:
-      '@synthetixio/synpress':
+      '@synpress-cypress/synpress':
         specifier: workspace:*
         version: link:../../release
       dotenv:
@@ -69,7 +69,7 @@ importers:
       '@playwright/test':
         specifier: 1.48.2
         version: 1.48.2
-      '@synthetixio/synpress':
+      '@synpress-cypress/synpress':
         specifier: workspace:*
         version: link:../../release
       dotenv:
@@ -209,19 +209,19 @@ importers:
       '@playwright/test':
         specifier: '*'
         version: 1.48.2
-      '@synthetixio/ethereum-wallet-mock':
+      '@synpress-cypress/ethereum-wallet-mock':
         specifier: workspace:*
         version: link:../wallets/ethereum-wallet-mock
-      '@synthetixio/synpress-cache':
+      '@synpress-cypress/synpress-cache':
         specifier: workspace:*
         version: link:../packages/cache
-      '@synthetixio/synpress-core':
+      '@synpress-cypress/synpress-core':
         specifier: workspace:*
         version: link:../packages/core
-      '@synthetixio/synpress-metamask':
+      '@synpress-cypress/synpress-metamask':
         specifier: workspace:*
         version: link:../wallets/metamask
-      '@synthetixio/synpress-phantom':
+      '@synpress-cypress/synpress-phantom':
         specifier: workspace:*
         version: link:../wallets/phantom
     devDependencies:
@@ -277,9 +277,9 @@ importers:
       '@playwright/test':
         specifier: '*'
         version: 1.48.2
-      '@synthetixio/synpress-core':
-        specifier: 0.0.12
-        version: 0.0.12(@playwright/test@1.48.2)
+      '@synpress-cypress/synpress-core':
+        specifier: workspace:*
+        version: link:../../packages/core
       viem:
         specifier: 2.9.9
         version: 2.9.9(typescript@5.3.3)(zod@3.22.4)
@@ -311,10 +311,10 @@ importers:
       '@playwright/test':
         specifier: '*'
         version: 1.48.2
-      '@synthetixio/synpress-cache':
+      '@synpress-cypress/synpress-cache':
         specifier: workspace:*
         version: link:../../packages/cache
-      '@synthetixio/synpress-core':
+      '@synpress-cypress/synpress-core':
         specifier: workspace:*
         version: link:../../packages/core
       '@viem/anvil':
@@ -360,10 +360,10 @@ importers:
       '@playwright/test':
         specifier: 1.48.2
         version: 1.48.2
-      '@synthetixio/synpress-cache':
+      '@synpress-cypress/synpress-cache':
         specifier: workspace:*
         version: link:../../packages/cache
-      '@synthetixio/synpress-core':
+      '@synpress-cypress/synpress-core':
         specifier: workspace:*
         version: link:../../packages/core
       '@viem/anvil':
@@ -1551,11 +1551,6 @@ packages:
   '@sindresorhus/is@5.6.0':
     resolution: {integrity: sha512-TV7t8GKYaJWsn00tFDqBw8+Uqmr8A0fRU1tvTQhyZzGv0sJCGRQL3JGMI3ucuKo3XIZdUP+Lx7/gh2t3lewy7g==}
     engines: {node: '>=14.16'}
-
-  '@synthetixio/synpress-core@0.0.12':
-    resolution: {integrity: sha512-OBJDWP/6Hf2olJD98IDeOMxrIJ8pGtnADmxBf0WTUHZiXOwysEnHWksOCaAI3Hef5X4I+MUTCRx2ea4AmvRG5g==}
-    peerDependencies:
-      '@playwright/test': '*'
 
   '@synthetixio/synpress-tsconfig@0.0.12':
     resolution: {integrity: sha512-WyouNIDYVsAeXgcH5ASuguNWFMJahIk3zAFoH+nh/rZNQFPmEIewnoCJyqtxq4Xev2vQMiXcEE2ICGtMRrSU7w==}
@@ -6253,10 +6248,6 @@ snapshots:
   '@sinclair/typebox@0.27.8': {}
 
   '@sindresorhus/is@5.6.0': {}
-
-  '@synthetixio/synpress-core@0.0.12(@playwright/test@1.48.2)':
-    dependencies:
-      '@playwright/test': 1.48.2
 
   '@synthetixio/synpress-tsconfig@0.0.12': {}
 

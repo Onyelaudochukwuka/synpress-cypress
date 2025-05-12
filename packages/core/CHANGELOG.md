@@ -1,4 +1,4 @@
-# @synthetixio/synpress-core
+# @synpress-cypress/synpress-core
 
 ## 0.0.12
 
@@ -120,7 +120,7 @@
 
 - Alpha Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.1-alpha.3
+  - @synpress-cypress/synpress-cache@0.0.1-alpha.3
 
 ## 0.0.1-alpha.2
 
@@ -128,7 +128,7 @@
 
 - Alpha Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.1-alpha.2
+  - @synpress-cypress/synpress-cache@0.0.1-alpha.2
 
 ## 0.0.1-alpha.1
 
@@ -136,7 +136,7 @@
 
 - Alpha Release
 - Updated dependencies
-  - @synthetixio/synpress-cache@0.0.1-alpha.1
+  - @synpress-cypress/synpress-cache@0.0.1-alpha.1
 
 ## 0.0.1-alpha.0
 

@@ -1,15 +1,13 @@
 {
-  "private": true,
-  "homepage": "https://synpress.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Synthetixio/synpress.git"
+    "url": "https://github.com/Onyelaudochukwuka/synpress-cypress.git"
   },
   "license": "MIT",
   "scripts": {
     "build": "turbo build",
-    "build:cache:metamask": "turbo build:cache --filter=@synthetixio/synpress-metamask",
-    "build:cache:phantom": "turbo build:cache --filter=@synthetixio/synpress-phantom",
+    "build:cache:metamask": "turbo build:cache --filter=@synpress-cypress/synpress-metamask",
+    "build:cache:phantom": "turbo build:cache --filter=@synpress-cypress/synpress-phantom",
     "format": "biome format . --write",
     "format:check": "biome format . --error-on-warnings",
     "preinstall": "npx only-allow pnpm",
@@ -21,10 +19,10 @@
     "sort-package-json": "sort-package-json 'package.json' '{packages,wallets,examples}/*/package.json'",
     "sort-package-json:check": "sort-package-json 'package.json' '{packages,wallets,examples}/*/package.json' --check",
     "test": "turbo test",
-    "test:playwright:headful": "turbo test:playwright:headful --filter=@synthetixio/synpress-metamask --filter=@synthetixio/ethereum-wallet-mock --filter=@synthetixio/synpress-phantom",
-    "test:playwright:headless": "turbo test:playwright:headless --filter=@synthetixio/synpress-metamask --filter=@synthetixio/ethereum-wallet-mock --filter=@synthetixio/synpress-phantom",
-    "test:playwright:phantom:headful": "turbo test:playwright:headful --filter=@synthetixio/synpress-phantom",
-    "test:playwright:wallet-mock-and-metamask:headful": "turbo test:playwright:headful --filter=@synthetixio/synpress-metamask --filter=@synthetixio/ethereum-wallet-mock",
+    "test:playwright:headful": "turbo test:playwright:headful --filter=@synpress-cypress/synpress-metamask --filter=@synpress-cypress/ethereum-wallet-mock --filter=@synpress-cypress/synpress-phantom",
+    "test:playwright:headless": "turbo test:playwright:headless --filter=@synpress-cypress/synpress-metamask --filter=@synpress-cypress/ethereum-wallet-mock --filter=@synpress-cypress/synpress-phantom",
+    "test:playwright:phantom:headful": "turbo test:playwright:headful --filter=@synpress-cypress/synpress-phantom",
+    "test:playwright:wallet-mock-and-metamask:headful": "turbo test:playwright:headful --filter=@synpress-cypress/synpress-metamask --filter=@synpress-cypress/ethereum-wallet-mock",
     "update:deps": "ncu -u -ws --root"
   },
   "lint-staged": {
@@ -41,6 +39,7 @@
     "sort-package-json": "2.7.0",
     "turbo": "1.12.3"
   },
+  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af",
   "engines": {
     "node": ">=20",
     "pnpm": ">=9"

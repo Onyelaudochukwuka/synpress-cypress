@@ -1,5 +1,5 @@
-import { testWithSynpress } from '@synthetixio/synpress'
-import { EthereumWalletMock, ethereumWalletMockFixtures } from '@synthetixio/synpress/playwright'
+import { testWithSynpress } from '@synpress-cypress/synpress'
+import { EthereumWalletMock, ethereumWalletMockFixtures } from '@synpress-cypress/synpress/playwright'
 
 // Set up the test environment with Synpress and Ethereum wallet mock fixtures
 const test = testWithSynpress(ethereumWalletMockFixtures)

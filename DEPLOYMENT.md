@@ -32,7 +32,7 @@ pnpm changeset version
 7. Publish the packages by running:
 
 ```bash
-# You might have to run this command twice if it fails to publish the `@synthetixio/synpress` package on the first run.
+# You might have to run this command twice if it fails to publish the `@synpress-cypress/synpress` package on the first run.
 pnpm changeset publish
 ```
 

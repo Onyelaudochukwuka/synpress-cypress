@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { cliEntrypoint } from '@synthetixio/synpress-cache'
+import { cliEntrypoint } from '@synpress-cypress/synpress-cache'
 
 cliEntrypoint().catch((err) => {
   console.log('Aborting...')

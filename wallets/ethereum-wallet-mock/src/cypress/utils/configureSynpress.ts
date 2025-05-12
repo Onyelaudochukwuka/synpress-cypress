@@ -1,4 +1,4 @@
-import { ensureRdpPort } from '@synthetixio/synpress-core'
+import { ensureRdpPort } from '@synpress-cypress/synpress-core'
 
 import { initEthereumWalletMock } from './initEthereumWalletMock'
 

@@ -64,7 +64,7 @@ const instanceStartupScript = pulumi.interpolate`#!/bin/bash
         cd /opt/support-bot
 
         # Clone repo
-        git clone https://github.com/Synthetixio/synpress.git
+        git clone https://github.com/synpress-cypress/synpress.git
         cd synpress
         git checkout dev
 

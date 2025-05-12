@@ -5,7 +5,7 @@
   "homepage": "https://synpress.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Synthetixio/synpress.git"
+    "url": "https://github.com/synpress-cypress/synpress.git"
   },
   "license": "MIT",
   "type": "module",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@playwright/test": "1.48.2",
-    "@synthetixio/synpress": "workspace:*",
+    "@synpress-cypress/synpress": "workspace:*",
     "dotenv": "16.4.2"
   },
   "devDependencies": {

@@ -1,10 +1,10 @@
 {
-  "name": "@synthetixio/synpress",
+  "name": "@synpress-cypress/synpress",
   "version": "4.1.0",
   "homepage": "https://synpress.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Synthetixio/synpress.git"
+    "url": "https://github.com/synpress-cypress/synpress.git"
   },
   "license": "MIT",
   "type": "module",
@@ -45,11 +45,11 @@
     "types:check": "tsc --noEmit"
   },
   "dependencies": {
-    "@synthetixio/ethereum-wallet-mock": "workspace:*",
-    "@synthetixio/synpress-cache": "workspace:*",
-    "@synthetixio/synpress-core": "workspace:*",
-    "@synthetixio/synpress-metamask": "workspace:*",
-    "@synthetixio/synpress-phantom": "workspace:*"
+    "@synpress-cypress/ethereum-wallet-mock": "workspace:*",
+    "@synpress-cypress/synpress-cache": "workspace:*",
+    "@synpress-cypress/synpress-core": "workspace:*",
+    "@synpress-cypress/synpress-metamask": "workspace:*",
+    "@synpress-cypress/synpress-phantom": "workspace:*"
   },
   "devDependencies": {
     "@synthetixio/synpress-tsconfig": "0.0.12",

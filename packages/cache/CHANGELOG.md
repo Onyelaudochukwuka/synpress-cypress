@@ -1,4 +1,4 @@
-# @synthetixio/synpress-cache
+# @synpress-cypress/synpress-cache
 
 ## 0.0.12
 

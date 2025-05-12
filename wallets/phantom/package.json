@@ -1,5 +1,5 @@
 {
-  "name": "@synthetixio/synpress-phantom",
+  "name": "@synpress-cypress/synpress-phantom",
   "version": "0.0.12",
   "type": "module",
   "exports": {
@@ -32,8 +32,8 @@
     "types:check": "tsc --noEmit"
   },
   "dependencies": {
-    "@synthetixio/synpress-cache": "workspace:*",
-    "@synthetixio/synpress-core": "workspace:*",
+    "@synpress-cypress/synpress-cache": "workspace:*",
+    "@synpress-cypress/synpress-core": "workspace:*",
     "@viem/anvil": "0.0.7",
     "fs-extra": "11.2.0",
     "zod": "3.22.4"

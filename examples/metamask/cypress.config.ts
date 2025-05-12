@@ -1,4 +1,4 @@
-import { configureSynpressForMetaMask } from '@synthetixio/synpress/cypress'
+import { configureSynpressForMetaMask } from '@synpress-cypress/synpress/cypress'
 import { defineConfig } from 'cypress'
 
 export default defineConfig({
