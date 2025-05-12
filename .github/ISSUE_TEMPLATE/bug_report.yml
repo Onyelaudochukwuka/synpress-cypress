@@ -14,7 +14,7 @@ body:
     attributes:
       label: 🧪 Have you tested your code using latest version of Synpress?
       options:
-        - label: I have made sure that my issue still exists on [latest version of Synpress](https://github.com/synpress-cypress/synpress/releases).
+        - label: I have made sure that my issue still exists on [latest version of Synpress](https://github.com/Onyelaudochukwuka/synpress-cypress/releases).
           required: true
 
   - type: checkboxes
